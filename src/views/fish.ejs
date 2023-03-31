@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <img src="https://via.placeholder.com/150x50" alt="Logo" class="logo">
+      <li><a href="/home">Home</a></li>
+      <li><a href="/fish">Fish News</a></li>
+      <li><a href="/subscribe">Subscribe</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/500x200" alt="front-picture" class="frontPicture">
+    <h1>Welcome to the Fish page</h1>
+    <br>
+    <h2>Latest added fish : </h2>
+    <br>
+    <p><strong>Catcher : </strong> <%= fishtype.catcher %></p>
+    <p><strong>Position : </strong><%= fishtype.position %></p>
+    <p><strong>Waterbody : </strong><%= fishtype.waterBodyName %></p>
+    <p><strong>City : </strong><%= fishtype.city %></p>
+    <p><strong>Species : </strong><%= fishtype.species %></p>
+    <p><strong>Weight: </strong><%= fishtype.weight %></p>
+    <p><strong>Length : </strong><%= fishtype.length %></p>
+    <p><strong>Timestamp : </strong><%= fishtype.catchTimestamp %></p>
+  </div>
+
+  <div class="decorative-element"></div>
+</body>
+</body>
+</html>

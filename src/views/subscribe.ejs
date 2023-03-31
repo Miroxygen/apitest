@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <img src="https://via.placeholder.com/150x50" alt="Logo" class="logo">
+      <li><a href="/home">Home</a></li>
+      <li><a href="/fish">Fish News</a></li>
+      <li><a href="/subscribe">Subscribe</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <img src="https://via.placeholder.com/500x200" alt="front-picture" class="frontPicture">
+    <h1>Subscribe to the fishcatch API!</h1>
+    <p>Here you can subscribe to our fishcatch API!</p>
+    <form action="./subscribe/add-subscriber" method="post">
+      <label for="url">URL:</label>
+      <input type="text" id="url" name="url"><br><br>
+      <label for="secret">Secret:</label>
+      <input type="password" id="secret" name="secret"><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <div class="decorative-element"></div>
+</body>
+</body>
+</html>
